@@ -1,0 +1,41 @@
+{
+  "pizzas": [
+    {
+      "name": "Margherita",
+      "sizes": {"small": 8.99, "medium": 10.99, "large": 12.99},
+      "crusts": ["regular", "thin", "gluten-free"],
+      "toppings": [],
+      "ingredients": ["tomato sauce", "mozzarella", "basil"],
+      "allergens": ["dairy", "gluten"]
+    },
+    {
+      "name": "Pepperoni",
+      "sizes": {"small": 9.99, "medium": 11.99, "large": 13.99},
+      "crusts": ["regular", "thin", "gluten-free"],
+      "toppings": ["pepperoni"],
+      "ingredients": ["tomato sauce", "mozzarella", "pepperoni"],
+      "allergens": ["dairy", "gluten"]
+    }
+  ],
+  "sides": [
+    {"name": "Garlic Bread", "price": 4.99, "allergens": ["gluten", "dairy"]},
+    {"name": "Caesar Salad", "price": 5.99, "allergens": ["dairy", "fish"]}
+  ],
+  "drinks": [
+    {"name": "Coke", "price": 1.99},
+    {"name": "Water", "price": 0.00}
+  ],
+  "dietary_options": {
+    "vegan_cheese": true,
+    "gluten_free_crust": true,
+    "nut_free": true
+  },
+  "deals": [
+    {"description": "Buy 2 medium pizzas, get 1 small free", "code": "MED2SMALL"}
+  ],
+  "policies": {
+    "pickup_time": "15-20 minutes",
+    "delivery_time": "30-45 minutes",
+    "payment_methods": ["cash", "credit card", "mobile pay"]
+  }
+}
